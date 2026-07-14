@@ -1,6 +1,6 @@
 {
   "n_train": 592,
-  "n_validation": 148,
+  "n_validation": 149,
   "positive": {
     "confusion_matrix": [
       [
@@ -9,18 +9,18 @@
       ],
       [
         8,
-        48
+        49
       ]
     ],
-    "accuracy": 0.9459,
+    "accuracy": 0.9463,
     "precision": 1.0,
-    "recall": 0.8571,
-    "f1_score": 0.9231
+    "recall": 0.8596,
+    "f1_score": 0.9245
   },
   "negative": {
     "confusion_matrix": [
       [
-        90,
+        91,
         1
       ],
       [
@@ -28,10 +28,10 @@
         56
       ]
     ],
-    "accuracy": 0.9865,
+    "accuracy": 0.9866,
     "precision": 0.9825,
     "recall": 0.9825,
     "f1_score": 0.9825
   },
-  "trained_at": "2026-07-14T13:59:52.117952"
+  "trained_at": "2026-07-14T14:28:34.032728"
 }
