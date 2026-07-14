@@ -1,0 +1,10 @@
+# =====================================================================
+# Réentraînement automatique du modèle : chaque lundi à 03h00.
+# Installation :
+#   crontab -e
+#   puis coller la ligne ci-dessous (adapter le chemin du projet).
+# =====================================================================
+0 3 * * 1 /bin/bash /chemin/vers/sentiment-api/scripts/retrain.sh
+
+# Équivalent Windows (Planificateur de tâches) :
+#   schtasks /create /tn "RetrainSentimentModel" /tr "python C:\sentiment-api\scripts\train_model.py" /sc weekly /d MON /st 03:00
